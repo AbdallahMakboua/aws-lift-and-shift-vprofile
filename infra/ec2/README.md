@@ -19,7 +19,7 @@ This document outlines the EC2 instances used in this project and how they were 
 
 - Used official AMIs with minimum OS customization
 - Applied the principle of least privilege in Security Groups
-- Tagged all instances and volumes (`Name`, `Project`)
+- Tagged all instances and volumes (`Name`, `Project`,`Environment`)
 - Validated services post-deployment
 - Used `user-data` scripts for full automation (IaC style)
 
